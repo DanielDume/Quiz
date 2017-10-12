@@ -72,7 +72,7 @@ Vagrant.configure("2") do |config|
     curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
     sudo apt-get install -y nodejs
     sudo apt-get install -y -f
-    cd /vagrant/ProiectColectiv/
+    cd /vagrant/QuizApp/
     make run
   SHELL
   config.vm.provision "shell", inline: $script, run: "always"
