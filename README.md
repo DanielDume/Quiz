@@ -4,7 +4,7 @@ Make sure you have the latest versions of *Virtual Box* and *Vagrant* installed.
 After installing *Vagrant* run: `vagrant plugin install vagrant-vbguest`.
 
 To clone the repo:
-`git clone https://github.com/NoaneDan/BarFinder.git`
+`git clone https://github.com/DanielDume/QuizApp.git`
 
 To start the server:
 `$ vagrant up`
