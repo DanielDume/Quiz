@@ -1,14 +1,23 @@
 # QuizApp
-Make sure you have the latest versions of Virtual Box and Vagrant installed. After installing Vagrant run: vagrant plugin install vagrant-vbguest.
 
-To clone the repo: git clone https://github.com/NoaneDan/BarFinder.git
+Make sure you have the latest versions of *Virtual Box* and *Vagrant* installed.
+After installing *Vagrant* run: `vagrant plugin install vagrant-vbguest`.
 
-To start the server: $ vagrant up
+To clone the repo:
+`git clone https://github.com/NoaneDan/BarFinder.git`
 
-To stop the server: $ vagrant halt
+To start the server:
+`$ vagrant up`
 
-To reload the server: $ vagrant ssh $ cd /vagrant/BarFinder $ make update
+To stop the server:
+`$ vagrant halt`
 
-To view server logs and other info: $ sudo -i pm2 monit
+To reload the server:
+`$ vagrant ssh
+ $ cd /vagrant/BarFinder
+ $ make update`
 
-The web page can be found on 10.10.10.10:3000/.
+To view server logs and other info:
+`$ sudo -i pm2 monit`
+
+The web page can be found on *10.10.10.10:3000/*.
