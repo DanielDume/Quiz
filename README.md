@@ -2,13 +2,13 @@
 
 Run all commands from git bash (https://git-scm.com/downloads)
 
-Make sure you have the latest versions of *Virtual Box* and *Vagrant* installed.
+Make sure you have the latest versions of *Virtual Box* (https://www.virtualbox.org/wiki/Downloads) and *Vagrant* (https://www.vagrantup.com/downloads.html) installed.
 After installing *Vagrant* run: `vagrant plugin install vagrant-vbguest`.
 
 To clone the repo:
 `git clone https://github.com/DanielDume/QuizApp.git`
 
-To start the server (while in QuizzApp folder):
+To start the server:
 `$ vagrant up`
 
 To stop the server:
