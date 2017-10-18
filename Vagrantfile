@@ -81,12 +81,11 @@ Vagrant.configure("2") do |config|
     sudo apt-get install -y nodejs
     sudo apt-get install -y -f
 
-    sudo npm install knex --save  
-    sudo npm install mysql --save
-
     cd /vagrant/QuizApp/
+    
     make run
-    mysql --user=root --password=12345678 dbinit.sql
+    # mysql --user=root --password=12345678 dbinit.sql
+    mysql -u root < dbInit.sql
   SHELL
   config.vm.provision "shell", inline: $script, run: "always"
 end
