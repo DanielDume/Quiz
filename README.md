@@ -3,7 +3,8 @@
 Run all commands from git bash (https://git-scm.com/downloads)
 
 Make sure you have the latest versions of *Virtual Box* (https://www.virtualbox.org/wiki/Downloads) and *Vagrant* (https://www.vagrantup.com/downloads.html) installed.
-After installing *Vagrant* run: `vagrant plugin install vagrant-vbguest`.
+After installing *Vagrant* run: 
+`vagrant plugin install vagrant-vbguest`.
 
 To clone the repo:
 `git clone https://github.com/DanielDume/QuizApp.git`
