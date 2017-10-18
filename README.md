@@ -8,7 +8,7 @@ After installing *Vagrant* run: `vagrant plugin install vagrant-vbguest`.
 To clone the repo:
 `git clone https://github.com/DanielDume/QuizApp.git`
 
-To start the server:
+To start the server (while in QuizzApp folder):
 `$ vagrant up`
 
 To stop the server:
