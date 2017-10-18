@@ -86,6 +86,7 @@ Vagrant.configure("2") do |config|
 
     cd /vagrant/QuizApp/
     make run
+    mysql --user=root --password=12345678 dbinit.sql
   SHELL
   config.vm.provision "shell", inline: $script, run: "always"
 end
