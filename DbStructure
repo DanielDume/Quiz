@@ -1,10 +1,10 @@
-—Role—
+#—Role—
 Id:               ObjectId PK
 Description:      String
 Users:            List<ObjectId> FK(User)
 
 
-—User—
+#—User—
 Id:               ObjectId PK
 Name:             String
 Roles:            List<ObjectId> FK(Role)
@@ -12,7 +12,7 @@ Mail:             String
 Password:         String(Hashed)
 
 
-—Question—
+#—Question—
 Id:               ObjectId PK
 Requirements:     String
 RightAnswers:     List<ObjectId>
@@ -23,12 +23,12 @@ DifficultyLevel:  ObjectId FK(DifficultyLevel)
 Type:             ObjectId FK(Type)
 
 
-—Answer—       
+#—Answer—       
 Id:               ObjectId PK
 Text:             String
 
 
-—Quizz—
+#—Quizz—
 Id:               ObjectId PK
 User:             ObjectId FK(User)
 Questions:        List<ObjectId> FK(Question)
@@ -37,13 +37,13 @@ CompletionTime:   Int
 Score:            Float
 
 
-—Technology—
+#—Technology—
 Id:               ObjectId PK
 Name:             String
 Questions:        List<ObjectId> FK(Question)
 
 
-—DifficultyLevel—
+#—DifficultyLevel—
 Id:               ObjectId PK
 Name:             String
 Questions:        List<ObjectId> FK(Question)
